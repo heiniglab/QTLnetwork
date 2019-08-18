@@ -1,0 +1,10 @@
+Package: QTLnetwork
+Type: Package
+Title: Basic package to apply random walks for QTL candidate gene priorization
+Version: 1.0
+Date: 2019-08-16
+Author: Matthias Heinig <matthias.heinig@helmholtz-muenchen.de>, Johann Hawe <johann.hawe@helmholtz-muenchen.de>
+Maintainer: Matthias Heinig <matthias.heinig@helmholtz-muenchen.de>
+Description: Methods in this package can be used to determine likely candidate genes of QTLs (quantitative trait loci). The code was used in the methylation QTL project (Hawe et al. 2019) to obtain candidate genes for trans-meQTL hotspots.  Central to this package are the prioritize.by.randomwalk and propagation methods which can be used, in principle, on any locus to prioritize QTL genes (ie genes located near the genetic locus affecting a quantitative trait).
+License: GNU GPLv3
+RoxygenNote: 6.1.1
